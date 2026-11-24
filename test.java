@@ -4,6 +4,8 @@ public class Test {
 
         String name = "Shiba";
         int age = 26;
+        
+        System.out.println("The details ");
 
         System.out.println("My name is " + name);
         System.out.println("My age is " + age);
