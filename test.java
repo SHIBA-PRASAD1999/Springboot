@@ -6,6 +6,7 @@ public class Test {
         int age = 26;
         
         System.out.println("The details ");
+        int date=25;
 
         System.out.println("My name is " + name);
         System.out.println("My age is " + age);
