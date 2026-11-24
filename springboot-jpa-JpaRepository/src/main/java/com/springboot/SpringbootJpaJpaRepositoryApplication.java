@@ -6,6 +6,7 @@ import java.util.Scanner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.data.domain.Example;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
@@ -36,7 +37,12 @@ public class SpringbootJpaJpaRepositoryApplication {
 		 * List<Student> student = studentRepository.findAll(Sort.by("name"));
 		 * student.forEach(System.out::println);
 		 */
+		Student str=new Student();
+		str.setGender("male");
+		Example<Student> exp=Example.of(str);
 		
+	List<Student> st=studentRepository.findAll(exp);
+	st.forEach(System.out::println);
 		
 	}
 
