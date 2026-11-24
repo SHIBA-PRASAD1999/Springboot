@@ -43,6 +43,7 @@ public class SpringbootJpaJpaRepositoryApplication {
 		
 	List<Student> st=studentRepository.findAll(exp);
 	st.forEach(System.out::println);
+	System.out.println("The result are");
 		
 	}
 
