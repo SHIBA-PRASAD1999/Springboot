@@ -7,7 +7,7 @@ public class Test {
         
         System.out.println("The details ");
 	int age=32;
-	
+	int age=92;
         System.out.println("My name is " + name);
         System.out.println("My age is " + age);
     }
