@@ -6,12 +6,8 @@ public class Test {
         int age = 26;
         
         System.out.println("The details ");
-
-	int date =27;
-
-        int date=25;
-
-
+	int age=32;
+	
         System.out.println("My name is " + name);
         System.out.println("My age is " + age);
     }
